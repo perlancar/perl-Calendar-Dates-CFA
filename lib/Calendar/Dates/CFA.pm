@@ -46,10 +46,8 @@ our @ENTRIES = (
 This module provides CFA exam calendar using the L<Calendar::Dates> interface.
 
 
-=head1 SEE ALSO
+=head1 prepend:SEE ALSO
 
 L<https://www.cfainstitute.org/programs/cfa>
 
 L<https://en.wikipedia.org/wiki/Chartered_Financial_Analyst>
-
-L<Calendar::Dates>
