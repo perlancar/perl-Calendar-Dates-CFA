@@ -9,7 +9,8 @@ use warnings;
 
 use Role::Tiny::With;
 
-with 'Calendar::DatesRoles::FromData';
+with 'Calendar::DatesRoles::DataPreparer::CalendarVar::FromData';
+with 'Calendar::DatesRoles::DataUser::CalendarVar';
 
 1;
 # ABSTRACT: CFA exam calendar
