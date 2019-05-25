@@ -12,12 +12,48 @@ use Role::Tiny::With;
 with 'Calendar::DatesRoles::DataPreparer::CalendarVar::FromData';
 with 'Calendar::DatesRoles::DataUser::CalendarVar';
 
+sub filter_entry {
+    my ($self, $entry, $params) = @_;
+
+    if (defined(my $mon = $params->{exam_month})) {
+        $mon eq 'jun' || $mon eq 'dec' or die "Invalid exam_month, please specify either jun/dec";
+        return 0 unless grep { /\A$mon/ } @{ $entry->{tags} // [] };
+    }
+    if (defined(my $lvl = $params->{exam_level})) {
+        my $mentions_lvl1 = $entry->{summary} =~ /levels? I\b/i;
+        my $mentions_lvl2 = $entry->{summary} =~ /levels? II & III\b/i;
+        my $mentions_lvl3 = $entry->{summary} =~ /levels? II & III\b/i;
+        my $is_dec = grep { /\Adec/ } @{ $entry->{tags} // [] };
+        return 0 if $lvl == 1 && !$mentions_lvl1 && ($mentions_lvl2 || $mentions_lvl3);
+        return 0 if $lvl == 2 && $is_dec || !$mentions_lvl2 && ($mentions_lvl1 || $mentions_lvl3);
+        return 0 if $lvl == 3 && $is_dec || !$mentions_lvl3 && ($mentions_lvl1 || $mentions_lvl2);
+    }
+    1;
+}
+
 1;
 # ABSTRACT: CFA exam calendar
 
 =head1 DESCRIPTION
 
 This module provides CFA exam calendar using the L<Calendar::Dates> interface.
+
+
+=head1 PARAMETERS
+
+=head2 exam_month
+
+Can be used to select dates related to a certain exam month only. Value is
+either C<jun> or C<dec>. Example:
+
+ $entries = Calendar::Dates::CFA->get_entries({exam_month=>'jun'}, 2019);
+
+=head2 exam_level
+
+Can be used to select dates related to a certain exam level only. Value is
+either 1, 2, 3.
+
+ $entries = Calendar::Dates::CFA->get_entries({exam_level=>2}, 2019);
 
 
 =head1 prepend:SEE ALSO
