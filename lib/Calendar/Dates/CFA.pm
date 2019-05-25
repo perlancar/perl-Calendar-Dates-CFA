@@ -52,4 +52,11 @@ __DATA__
 2019-03-27;Early registration fee deadline;dec2019exam
 2019-08-14;Standard registration fee deadline;dec2019exam
 2019-09-11;Final (late) registration fee deadline;dec2019exam
+2019-12-03;Test center change request submission deadline;dec2019exam
 2019-12-07;Exam day;dec2019exam
+2019-12-08;Religious alternate exam date;dec2019exam
+
+# jun2020exam
+# 2019-08-xx;Exam registration open;jun2020exam
+2020-06-06;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2020exam
+2020-06-07;Exam day: Asia-Pacific (Level I only);jun2020exam
