@@ -34,6 +34,8 @@ sub filter_entry {
 1;
 # ABSTRACT: CFA exam calendar
 
+=for Pod::Coverage ^(filter_entry)$
+
 =head1 DESCRIPTION
 
 This module provides CFA exam calendar using the L<Calendar::Dates> interface.
