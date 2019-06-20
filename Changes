@@ -1,3 +1,12 @@
+0.006   2019-06-20 (PERLANCAR)
+
+        - No functional changes.
+
+	- Switch to
+	  Calendar::DatesRoles::DataPreparer::CalendarVar::FromDATA::Simple
+	  (renamed role name).
+
+
 0.005   2019-02-15 (PERLANCAR)
 
 	- No functional changes.
