@@ -3,10 +3,19 @@
 	- Recognize two params: exam_month & exam_level.
 
 
-0.006   2019-05-25 (PERLANCAR)
+0.006.2 2019-05-25 (PERLANCAR)
 
 	- Updates: dec2019exam test center change request deadline, some
 	  jun2020exam dates.
+
+
+0.006   2019-06-20 (PERLANCAR)
+
+        - No functional changes.
+
+	- Switch to
+	  Calendar::DatesRoles::DataPreparer::CalendarVar::FromDATA::Simple
+	  (renamed role name).
 
 
 0.005   2019-02-15 (PERLANCAR)
