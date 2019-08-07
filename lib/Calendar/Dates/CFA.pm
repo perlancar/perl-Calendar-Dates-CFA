@@ -77,13 +77,14 @@ __DATA__
 2019-02-18;Second deadline to request disability accommodations;jun2019exam
 2019-03-13;Final (late) registration fee deadline;jun2019exam
 2019-03-18;Final deadline to request disability accommodations;jun2019exam
-# mid-may 2019, admission tickets available
+# XXX mid-may 2019, admission tickets available
 2019-06-11;Deadline for submission of test center change requests;jun2019exam
 2019-06-15;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2019exam
 2019-06-16;Exam day: Asia-Pacific (Level I only);jun2019exam
 2019-06-16;Religious alternate exam date (Americas and EMEA, all levels);jun2019exam
 2019-06-17;Religious alternate exam date (Asia Pacific, all levels);jun2019exam
-# TODO: result announcement
+2019-08-06;Exam results announcement (Jun 2019, Levels I & II);jun2019exam
+2019-08-20;Exam results announcement (Jun 2019, Level III);jun2019exam
 
 # dec2019exam
 2019-01-24;Exam registration open;dec2019exam
@@ -95,6 +96,9 @@ __DATA__
 2019-12-08;Religious alternate exam date;dec2019exam
 
 # jun2020exam
-# 2019-08-xx;Exam registration open;jun2020exam
+2019-08-08;Exam registration open;jun2020exam
+2019-10-02;Early registration fee deadline;jun2020exam
+2020-02-12;Standard registration fee deadline;jun2020exam
+2020-03-11;Late registration fee deadline;jun2020exam
 2020-06-06;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2020exam
 2020-06-07;Exam day: Asia-Pacific (Level I only);jun2020exam
