@@ -68,7 +68,7 @@ L<https://en.wikipedia.org/wiki/Chartered_Financial_Analyst>
 
 __DATA__
 # dec2018exam
-2019-01-23;Exam results announcement (Dec 2018, Levels I & II);dec2018exam
+2019-01-23;Exam results announcement (Dec 2018, Level I);dec2018exam,l1
 
 # jun2019exam
 2018-10-15;First deadline to request disability accommodations;jun2019exam
@@ -79,12 +79,12 @@ __DATA__
 2019-03-18;Final deadline to request disability accommodations;jun2019exam
 # XXX mid-may 2019, admission tickets available
 2019-06-11;Deadline for submission of test center change requests;jun2019exam
-2019-06-15;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2019exam
-2019-06-16;Exam day: Asia-Pacific (Level I only);jun2019exam
+2019-06-15;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2019exam,l2,l3
+2019-06-16;Exam day: Asia-Pacific (Level I only);jun2019exam,l1
 2019-06-16;Religious alternate exam date (Americas and EMEA, all levels);jun2019exam
 2019-06-17;Religious alternate exam date (Asia Pacific, all levels);jun2019exam
-2019-08-06;Exam results announcement (Jun 2019, Levels I & II);jun2019exam
-2019-08-20;Exam results announcement (Jun 2019, Level III);jun2019exam
+2019-08-06;Exam results announcement (Jun 2019, Levels I & II);jun2019exam,l1,l2
+2019-08-20;Exam results announcement (Jun 2019, Level III);jun2019exam,l3
 
 # dec2019exam
 2019-01-24;Exam registration open;dec2019exam
@@ -92,13 +92,22 @@ __DATA__
 2019-08-14;Standard registration fee deadline;dec2019exam
 2019-09-11;Final (late) registration fee deadline;dec2019exam
 2019-12-03;Test center change request submission deadline;dec2019exam
-2019-12-07;Exam day;dec2019exam
-2019-12-08;Religious alternate exam date;dec2019exam
+2019-12-07;Exam day;dec2019exam,l1
+2019-12-08;Religious alternate exam date;dec2019exam,l1
 
 # jun2020exam
 2019-08-08;Exam registration open;jun2020exam
 2019-10-02;Early registration fee deadline;jun2020exam
 2020-02-12;Standard registration fee deadline;jun2020exam
 2020-03-11;Late registration fee deadline;jun2020exam
-2020-06-06;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2020exam
-2020-06-07;Exam day: Asia-Pacific (Level I only);jun2020exam
+2020-06-06;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2020exam,l2,l3
+2020-06-07;Exam day: Asia-Pacific (Level I only);jun2020exam,l1
+2020-07-28;Exam results available (Jun 2020);jun2020exam,l1,l2
+
+# dec2020exam
+2020-02-05;Exam registration open;dec2020exam
+2020-03-25;Early registration fee deadline;dec2020exam
+2020-08-19;Standard registration fee deadline;dec2020exam
+2020-09-09;Final (late) registration fee deadline;dec2020exam
+2020-12-05;Exam day;dec2020exam,l1
+2020-12-06;Religious alternate exam date;dec2020exam,l1
