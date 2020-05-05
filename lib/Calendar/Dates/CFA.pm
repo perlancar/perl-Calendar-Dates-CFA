@@ -96,18 +96,18 @@ __DATA__
 2019-12-08;Religious alternate exam date;dec2019exam,l1
 
 # jun2020exam
-2019-08-08;Exam registration open;jun2020exam
-2019-10-02;Early registration fee deadline;jun2020exam
-2020-02-12;Standard registration fee deadline;jun2020exam
-2020-03-11;Late registration fee deadline;jun2020exam
-2020-06-06;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2020exam,l2,l3
-2020-06-07;Exam day: Asia-Pacific (Level I only);jun2020exam,l1
-2020-07-28;Exam results available (Jun 2020);jun2020exam,l1,l2
+2019-08-08;Exam registration open;jun2020exam,cancelled
+2019-10-02;Early registration fee deadline;jun2020exam,cancelled
+2020-02-12;Standard registration fee deadline;jun2020exam,cancelled
+2020-03-11;Late registration fee deadline;jun2020exam,cancelled
+2020-06-06;Exam day: Asia-Pacific (Levels II & III), Americas and EMEA (all levels);jun2020exam,l2,l3,cancelled
+2020-06-07;Exam day: Asia-Pacific (Level I only);jun2020exam,l1,cancelled
+2020-07-28;Exam results available (Jun 2020);jun2020exam,l1,l2,cancelled
 
 # dec2020exam
 2020-02-05;Exam registration open;dec2020exam
 2020-03-25;Early registration fee deadline;dec2020exam
 2020-08-19;Standard registration fee deadline;dec2020exam
 2020-09-09;Final (late) registration fee deadline;dec2020exam
-2020-12-05;Exam day;dec2020exam,l1
-2020-12-06;Religious alternate exam date;dec2020exam,l1
+2020-12-05;Exam day (Americas, EMEA all levels);dec2020exam,l1,l2,l3
+2020-12-06;Exam day (APAC);dec2020exam,l1,l2,l3
